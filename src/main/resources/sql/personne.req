@@ -1,0 +1,6 @@
+insert_personne=insert into personne (nom, prenom) values(?,?)
+update_personne=update personne set nom = ? , prenom = ? where id = ?
+delete_personne=delete personne where id = ?
+select_All=select * from personne
+select_ID=select * from personne where id=?
+SELECT_NOM_PRENOM=select * from personne where nom = ? and prenom = ?
